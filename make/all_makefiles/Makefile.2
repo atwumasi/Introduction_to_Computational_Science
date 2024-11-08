@@ -1,0 +1,28 @@
+# Converting tex into pdf and combine the latter.
+
+booklet.pdf : mypage1.pdf mypage2.pdf mypage3.pdf mypage4.pdf
+	pdftk $^ cat output $@
+
+mypage%.pdf : mypage%.tex
+	pdflatex $^
+
+all : booklet.pdf mypage1.pdf mypage2.pdf mypage3.pdf mypage4.pdf
+
+.PHONY : clean
+clean :
+	rm *.log *.out *.aux mypage?.pdf
+
+.PHONY : cleanall
+cleanall :
+	rm *.log *.out *.aux *.pdf
+
+
+
+
+
+
+
+
+
+
+

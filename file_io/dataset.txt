@@ -1,0 +1,30 @@
+N=50   	C=0.2500	sigma=1.0000	d=1.7556	delta=0.0459
+Proportion of stable M: 0.983000.
+Classification: Stable.
+N=50   	C=0.3033	sigma=1.0000	d=1.0470	delta=0.0679
+Proportion of stable M: 0.125000.
+Classification: Unstable.
+N=50   	C=0.3179	sigma=1.0000	d=1.3835	delta=0.0519
+Proportion of stable M: 0.639000.
+Classification: Unstable.
+N=50   	C=0.3331	sigma=1.0000	d=1.0535	delta=0.0530
+Proportion of stable M: 0.048000.
+Classification: Unstable.
+N=50   	C=0.3171	sigma=1.0000	d=1.3834	delta=0.0067
+Proportion of stable M: 0.614000.
+Classification: Unstable.
+N=50   	C=0.2917	sigma=1.0000	d=1.5890	delta=0.0930
+Proportion of stable M: 0.910000.
+Classification: Stable.
+N=50   	C=0.3346	sigma=1.0000	d=1.0920	delta=0.0654
+Proportion of stable M: 0.076000.
+Classification: Unstable.
+N=50   	C=0.2916	sigma=1.0000	d=1.9103	delta=0.0762
+Proportion of stable M: 0.994000.
+Classification: Stable.
+N=50   	C=0.2762	sigma=1.0000	d=1.7361	delta=0.0328
+Proportion of stable M: 0.981000.
+Classification: Stable.
+N=50   	C=0.3133	sigma=1.0000	d=1.9910	delta=0.0365
+Proportion of stable M: 0.993000.
+Classification: Stable.

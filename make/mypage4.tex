@@ -1,0 +1,86 @@
+% Use 12pt for font size of normal text
+\documentclass[11pt,letterpaper]{article}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{graphicx,pifont}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{ulem,cancel}    % Cross out texts
+\usepackage{multirow}       % Complicate tables
+\usepackage{hyperref}       % Enable links in pdf
+\usepackage{enumerate}      % Customize enum bullets
+\usepackage{mdwlist}        % Compact enumerate etc
+\usepackage{algorithm}      % [section] for labels
+\usepackage{algpseudocode}  % Algorithmicx
+\usepackage{tikz}           % Drawing figures
+\usepackage{listings}
+\usepackage{enumitem}
+%\usetikzlibrary[patterns]
+
+%% Page layout BEGIN
+%\voffset=-0.25in	% Default is 1.0 inch
+\topmargin=0in
+\headheight=0in
+\headsep=0in
+
+%\hoffset=-0.25in	% Default is 1.0 inch
+\marginparsep=0in
+\marginparwidth=0in
+\oddsidemargin=0in
+
+\textwidth=6.5in
+\textheight=8.5in
+%% Page layout END
+
+%\pagestyle{empty}	% no page number
+\pagestyle{plain}	% with page number
+
+\begin{document}
+
+\newcommand{\tbd}{}
+%\newcommand{\tbd}{{\color{red} TBD}}
+
+%% Mathematic typesettings BEGIN
+\newcommand{\eqdef}{\overset{\mathrm{def}}{=\joinrel=}}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\oname}[1]{\operatorname{#1}}
+\def\abs#1{\left|#1\right|}
+\def\nrm#1{\left|\left|#1\right|\right|}
+\def\ab#1{\langle#1\rangle}
+\newcommand{\po}[1]{\frac{\partial}{\partial{#1}}}
+\newcommand{\poh}[1]{\partial/\partial{#1}}
+\newcommand{\pp}[2]{\frac{\partial {#1}}{\partial {#2}}}
+\newcommand{\pph}[2]{\partial {#1}/\partial {#2}}
+%% Mathematic typesettings END
+
+%% Theorem styles, label numbers BEGIN
+\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+%\numberwithin{table}{section}
+
+%\newtheorem{prop}{Proposition}
+\newtheorem{theorem}{Theorem}
+%\newtheorem{algorithm}{Algorithm}
+%\newtheorem{definition}{Definition}
+
+%\numberwithin{prop}{section}
+\numberwithin{theorem}{section}
+%\numberwithin{algorithm}{section}
+%\numberwithin{definition}{section}
+%% Theorem styles, label numbers END
+
+%% Setting size parameters BEGIN
+% Matrix column spacing (default is 6pt)
+\setlength{\arraycolsep}{3pt} 
+% Tikz figure unit length
+\setlength{\unitlength}{1cm}
+%% Setting size parameters END
+
+%% Algorithm typesetting BEGIN
+% One line if
+\newcommand{\lineif}[2]{\State\algorithmicif\ {#1}\quad \algorithmicdo\ {#2}\quad \algorithmicend\ \algorithmicif}
+%% Algorithm typesetting END
+
+% Title
+{\Huge \bf Page 4 (NEW).}
+
+\end{document}
+
